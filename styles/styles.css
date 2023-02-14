@@ -1,0 +1,289 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    justify-content: space-between;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 25px;
+    padding-left: 36px;
+  }
+
+  .logo-pic {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  /* .logo-pic::before {
+    content: url(/images/logo.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+    justify-content: left;
+    align-content: flex-start;
+  } */
+
+  
+
+  .nav-page::after {
+    content: url(/images/Frame\ 60.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+    
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 25px;
+  }
+  
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    /* background-color: rgb(227, 245, 250); */
+    border-radius: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+ .first {
+  
+ }
+main {
+  /* width: 100%; */
+}
+
+  .main {
+    font-weight: 700;
+    font-size: 57px;
+    padding-left: 150px;
+    padding-right: 50px;
+  } 
+  
+  .blue {
+    color: #0536FC;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 70px;
+  }
+
+.black {
+  font-weight: 700;
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+.bluee {
+  color: #0536FC;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 70px;
+}
+
+.number {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.team {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.team-par {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.forth {
+  max-width: 360px;
+}
+
+.mainn {
+  font-weight: 700;
+  font-size: 57px;
+  max-width: 700px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+} 
+
+.sixth {
+  justify-content: center;
+  align-content: flex-start;
+  max-width: 360px;
+}
+
+  .main-par {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 70px;
+    padding-left: 150px;
+    padding-right: 50px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-areas:
+      "first boy"
+      "oorange second";
+  }
+  
+  .grid-container-a {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-areas: "third girl sixth";
+    height: 445px;
+  }
+  
+  .grid-container-b {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-areas: "forth girls fifth couple";
+  }
+  
+  .grid-container > div,
+  .grid-container-a > div,
+  .grid-container-b > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 20px 0;
+    font-size: 30px;
+    /* width: 100%; */
+  }
+  
+  .btn-invitation {
+    width: 213px;
+    height: 55px;
+    background-color: blue;
+    border: none;
+    color: azure;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 118px;
+  }
+  
+  .first {
+    height: 820px;
+    margin-left: 20px;
+  }
+  
+  .second {
+    height: 820px;
+    margin-left: 20px;
+  }
+  
+  .third,
+  .sixth,
+  .forth,
+  .fifth {
+    height: 445px;
+    margin-left: 20px;
+  }
+  
+  .special {
+    font-weight: 700;
+    font-size: 28px;
+    padding-right: 20px;
+    width: 430px;
+    
+  }
+  
+  .main {
+    font-weight: 700;
+  }
+
+  .black-par {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .boy {
+    background-image: url(/images/boy.png);
+    /* grid-column: span 2; */
+    /* width: 100%; */
+    height: 820px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .oorange {
+    background-image: url(/images/orange.png);
+    /* grid-column: span 3; */
+    width: 100%;
+    height: 820px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .girl {
+    background-image: url(/images/girl.png);
+    width: 360px;
+    height: 445px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .girls {
+    background-image: url(/images/girls.png);
+    width: 360px;
+    height: 445px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .couple {
+    background-image: url(/images/couple.png);
+    width: 360px;
+    height: 445px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
